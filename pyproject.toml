@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "airbnbcal"
+version = "0.1.0"
+description = ""
+authors = ["Christopher Kelly <cck197@cck197.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+icalendar = "^5.0.12"
+requests = "^2.31.0"
+flask = "^3.0.2"
+gunicorn = "^21.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.22.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
